@@ -1,0 +1,3 @@
+[submodule "libs/underscore"]
+	path = libs/underscore
+	url = https://github.com/jashkenas/underscore.git
