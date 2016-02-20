@@ -3,6 +3,11 @@ mongoscripts
 
 The *mongoscripts* project is a collection of tiny tools, which extend the functionality of [the mongo Shell](https://docs.mongodb.org/manual/mongo)
 
+### Dependencies
+
+```bash
+git submodule update --init --recursive
+```
 
 ### collection extensions
 
