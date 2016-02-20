@@ -91,7 +91,7 @@ The document count should be limited, since the rendering occurs after fetching 
 
 ### misc
 
-When it comes to date handling, you'll like to find documents in a specific date range. Querys like this are looking like
+When it comes to date handling, you'll like to find documents in a specific date range. Queries like this are looking like
 
 ```javascript
 db.LogEntry.find({
@@ -110,7 +110,7 @@ with the *getRange* method, you can shorten this query to
 db.LogEntry.find(getDateRange(new Date(2016,1,18,9,30,30), 30, 'TimeStamp'))
 
 ```
-This Query searches documents +/- 30 seconds around the given date for the *TimeStamp* field.
+This query searches documents +/- 30 seconds around the given date for the *TimeStamp* field.
 
 ### Further reading
 
